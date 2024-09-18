@@ -49,4 +49,11 @@ nav:
     - Updating The Docs: documentation/updating-the-docs.md
 plugins: 
   - search
-
+  - spellcheck:
+      backends:
+        - symspellpy
+        - codespell:
+            dictionaries: [clear, rare]
+      ignore_code: yes
+      known_words: known_words.txt
+      min_length: 2

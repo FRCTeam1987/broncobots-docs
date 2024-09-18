@@ -10,20 +10,20 @@ This guide explains how to update the [broncobots-docs](https://github.com/FRCTe
 ## Prepare for committing changes.
 - If you are a member of the Broncobots organization, then [create a branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository#creating-a-branch) in this repository for the relevant change.
 - If you are not a member of the Broncobots organization, then [create a fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo).
-- Clone the repo or be comfortable making changes directly on GitHub.
+- Clone the repository or be comfortable making changes directly on GitHub.
 
 ## Adding Docs
-1. Copy the [template](../../template.md) from the root directory and paste it to the appropriate directory in this project.
+1. Copy the template.md from the root directory and paste it to the appropriate directory in this project.
     - Create a new directory if needed.
 2. Replace generic content from the template with the new specific information.
-3. Update the [mkdocs.yml](../../mkdocs.yml) file with structure for the new content.
+3. Update the mkdocs.yml file in the root directory with structure for the new content.
 
 ## Updating Docs
 1. Edit the relevant files directly.
 
 ## Removing Docs
 1. Delete the relevant files.
-2. Remove references to the deleted files in the [mkdocks.yml](../../mkdocs.yml) file.
+2. Remove references to the deleted files in the mkdocs.yml file in the root directory.
 
 ## Submitting Changes For Review
 1. Commit your changes early and often.
@@ -33,5 +33,5 @@ This guide explains how to update the [broncobots-docs](https://github.com/FRCTe
 
 ## References
 - MKDocs: [writing and structuring docs](https://www.mkdocs.org/user-guide/writing-your-docs/)
-- Markdown cheatsheet: [formatting docs](https://github.com/im-luka/markdown-cheatsheet)
+- Markdown cheat sheet: [formatting docs](https://github.com/im-luka/markdown-cheatsheet)
 
